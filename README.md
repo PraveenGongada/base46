@@ -49,7 +49,7 @@ and then read `:h nvui.base46`
 
 - `:hi` command will list all highlight groups
 - `:hi` with args will highlight a **highlight group**
--  Example : `hi Comment guifg=#ffffff gui=italic, bold`
+- Example : `hi Comment guifg=#ffffff gui=italic, bold`
 
 ### Neovim Lua api for setting highlights
 
@@ -62,6 +62,7 @@ vim.api.nvim_set_hl(0, "Comment", {
   bold = true,
 })
 ```
+
 ## Understanding theme variables
 
 There are 2 main tables used for `base46`

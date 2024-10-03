@@ -8,7 +8,7 @@ M.base_30 = {
   deep_black = "#263238",
   white = "#37474F",
   darker_black = "#f7f7f7",
-  black = "#FFFfff", --  nvim bg
+  black = "#FFFfff",  --  nvim bg
   black2 = "#ECEFF1",
   one_bg = "#ebebeb", -- real bg of onedark
   one_bg2 = "#e0e0e0",
@@ -78,9 +78,6 @@ M.polish_hl = {
     TelescopeMatching = { fg = M.base_30.purple, bg = M.base_30.one_bg2 },
   },
 
-  nvdash = {
-    NvDashAscii = { fg = M.base_30.gray_fg, bg = M.base_30.purple },
-  },
 }
 
 M.type = "light"
