@@ -5,8 +5,8 @@ local M = {}
 
 M.base_30 = {
   white = "#d3d7df", -- slightly muted white
-  darker_black = "#080c11",
-  black = "#0E1117", -- nvim bg, reduced vibrance
+  darker_black = "#05080e",
+  black = "#080c11", -- nvim bg, reduced vibrance
   black2 = "#181b20",
   one_bg = "#20242a",
   one_bg2 = "#282c31",
@@ -37,7 +37,7 @@ M.base_30 = {
 }
 
 M.base_16 = {
-  base00 = "#0E1117", -- reduced vibrance for base00
+  base00 = "#080c11",
   base01 = "#20242a",
   base02 = "#282c31",
   base03 = "#303439",
